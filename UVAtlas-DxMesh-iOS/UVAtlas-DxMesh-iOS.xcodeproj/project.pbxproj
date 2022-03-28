@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE225DA22657801000AB3851 /* layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE225DA12657801000AB3851 /* layer.cpp */; };
+		CEE498F1265382010086413B /* barycentricparam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4987C265382000086413B /* barycentricparam.cpp */; };
+		CEE498F2265382010086413B /* basemeshinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4987D265382000086413B /* basemeshinfo.cpp */; };
+		CEE498F3265382010086413B /* graphcut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49880265382000086413B /* graphcut.cpp */; };
+		CEE498F4265382010086413B /* imtcomputation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49882265382000086413B /* imtcomputation.cpp */; };
+		CEE498F5265382010086413B /* isochart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49883265382000086413B /* isochart.cpp */; };
+		CEE498F6265382010086413B /* isochartengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49886265382000086413B /* isochartengine.cpp */; };
+		CEE498F7265382010086413B /* isochartmesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49888265382000086413B /* isochartmesh.cpp */; };
+		CEE498F8265382010086413B /* isochartutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4988A265382000086413B /* isochartutil.cpp */; };
+		CEE498F9265382010086413B /* isomap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4988C265382000086413B /* isomap.cpp */; };
+		CEE498FA265382010086413B /* lscmparam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4988E265382000086413B /* lscmparam.cpp */; };
+		CEE498FB265382010086413B /* mergecharts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4988F265382000086413B /* mergecharts.cpp */; };
+		CEE498FC265382010086413B /* meshapplyisomap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49890265382000086413B /* meshapplyisomap.cpp */; };
+		CEE498FD265382010086413B /* meshoptimizeboundaries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49892265382000086413B /* meshoptimizeboundaries.cpp */; };
+		CEE498FE265382010086413B /* meshoptimizestretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49893265382000086413B /* meshoptimizestretch.cpp */; };
+		CEE498FF265382010086413B /* meshpartitionchart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49894265382000086413B /* meshpartitionchart.cpp */; };
+		CEE49900265382010086413B /* packingcharts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49895265382000086413B /* packingcharts.cpp */; };
+		CEE49901265382010086413B /* progressivemesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE49896265382000086413B /* progressivemesh.cpp */; };
+		CEE49902265382010086413B /* UVAtlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4989A265382000086413B /* UVAtlas.cpp */; };
+		CEE49903265382010086413B /* UVAtlasRepacker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4989B265382000086413B /* UVAtlasRepacker.cpp */; };
+		CEE49904265382010086413B /* vertiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4989D265382000086413B /* vertiter.cpp */; };
+		CEE49905265382010086413B /* Vis_Maxflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE4989F265382000086413B /* Vis_Maxflow.cpp */; };
+		CEE49906265382010086413B /* DirectXMeshAdjacency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498C7265382000086413B /* DirectXMeshAdjacency.cpp */; };
+		CEE49907265382010086413B /* DirectXMeshClean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498C8265382000086413B /* DirectXMeshClean.cpp */; };
+		CEE49908265382010086413B /* DirectXMeshConcat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498C9265382000086413B /* DirectXMeshConcat.cpp */; };
+		CEE49909265382010086413B /* DirectXMeshGSAdjacency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498CA265382000086413B /* DirectXMeshGSAdjacency.cpp */; };
+		CEE4990A265382010086413B /* DirectXMeshletGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498CB265382000086413B /* DirectXMeshletGenerator.cpp */; };
+		CEE4990B265382010086413B /* DirectXMeshNormals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498CC265382000086413B /* DirectXMeshNormals.cpp */; };
+		CEE4990C265382010086413B /* DirectXMeshOptimize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498CD265382000086413B /* DirectXMeshOptimize.cpp */; };
+		CEE4990D265382010086413B /* DirectXMeshOptimizeLRU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498CE265382000086413B /* DirectXMeshOptimizeLRU.cpp */; };
+		CEE4990E265382010086413B /* DirectXMeshOptimizeTVC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498CF265382000086413B /* DirectXMeshOptimizeTVC.cpp */; };
+		CEE4990F265382010086413B /* DirectXMeshRemap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498D1265382000086413B /* DirectXMeshRemap.cpp */; };
+		CEE49910265382010086413B /* DirectXMeshTangentFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498D2265382000086413B /* DirectXMeshTangentFrame.cpp */; };
+		CEE49911265382010086413B /* DirectXMeshUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498D3265382000086413B /* DirectXMeshUtil.cpp */; };
+		CEE49912265382010086413B /* DirectXMeshValidate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498D4265382000086413B /* DirectXMeshValidate.cpp */; };
+		CEE49913265382010086413B /* DirectXMeshVBReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498D5265382000086413B /* DirectXMeshVBReader.cpp */; };
+		CEE49914265382010086413B /* DirectXMeshVBWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498D6265382000086413B /* DirectXMeshVBWriter.cpp */; };
+		CEE49915265382010086413B /* DirectXMeshWeldVertices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498D7265382000086413B /* DirectXMeshWeldVertices.cpp */; };
+		CEE49916265382010086413B /* ApproximateOneToAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498E8265382000086413B /* ApproximateOneToAll.cpp */; };
+		CEE49917265382010086413B /* ExactOneToAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498EB265382000086413B /* ExactOneToAll.cpp */; };
+		CEE49918265382010086413B /* mathutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE498ED265382000086413B /* mathutils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEE4986D265381BA0086413B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE225DA12657801000AB3851 /* layer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = layer.cpp; path = "../../UVAtlas-DxMesh-Dll2/UVAtlas/c/layer.cpp"; sourceTree = "<group>"; };
+		CEE4986F265381BA0086413B /* libUVAtlas-DxMesh-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUVAtlas-DxMesh-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE4987C265382000086413B /* barycentricparam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = barycentricparam.cpp; sourceTree = "<group>"; };
+		CEE4987D265382000086413B /* basemeshinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basemeshinfo.cpp; sourceTree = "<group>"; };
+		CEE4987E265382000086413B /* basemeshinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basemeshinfo.h; sourceTree = "<group>"; };
+		CEE4987F265382000086413B /* callbackschemer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = callbackschemer.h; sourceTree = "<group>"; };
+		CEE49880265382000086413B /* graphcut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphcut.cpp; sourceTree = "<group>"; };
+		CEE49881265382000086413B /* graphcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphcut.h; sourceTree = "<group>"; };
+		CEE49882265382000086413B /* imtcomputation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imtcomputation.cpp; sourceTree = "<group>"; };
+		CEE49883265382000086413B /* isochart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isochart.cpp; sourceTree = "<group>"; };
+		CEE49884265382000086413B /* isochart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isochart.h; sourceTree = "<group>"; };
+		CEE49885265382000086413B /* isochartconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isochartconfig.h; sourceTree = "<group>"; };
+		CEE49886265382000086413B /* isochartengine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isochartengine.cpp; sourceTree = "<group>"; };
+		CEE49887265382000086413B /* isochartengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isochartengine.h; sourceTree = "<group>"; };
+		CEE49888265382000086413B /* isochartmesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isochartmesh.cpp; sourceTree = "<group>"; };
+		CEE49889265382000086413B /* isochartmesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isochartmesh.h; sourceTree = "<group>"; };
+		CEE4988A265382000086413B /* isochartutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isochartutil.cpp; sourceTree = "<group>"; };
+		CEE4988B265382000086413B /* isochartutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isochartutil.h; sourceTree = "<group>"; };
+		CEE4988C265382000086413B /* isomap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isomap.cpp; sourceTree = "<group>"; };
+		CEE4988D265382000086413B /* isomap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isomap.h; sourceTree = "<group>"; };
+		CEE4988E265382000086413B /* lscmparam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lscmparam.cpp; sourceTree = "<group>"; };
+		CEE4988F265382000086413B /* mergecharts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mergecharts.cpp; sourceTree = "<group>"; };
+		CEE49890265382000086413B /* meshapplyisomap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = meshapplyisomap.cpp; sourceTree = "<group>"; };
+		CEE49891265382000086413B /* meshcommon.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = meshcommon.inl; sourceTree = "<group>"; };
+		CEE49892265382000086413B /* meshoptimizeboundaries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = meshoptimizeboundaries.cpp; sourceTree = "<group>"; };
+		CEE49893265382000086413B /* meshoptimizestretch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = meshoptimizestretch.cpp; sourceTree = "<group>"; };
+		CEE49894265382000086413B /* meshpartitionchart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = meshpartitionchart.cpp; sourceTree = "<group>"; };
+		CEE49895265382000086413B /* packingcharts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = packingcharts.cpp; sourceTree = "<group>"; };
+		CEE49896265382000086413B /* progressivemesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = progressivemesh.cpp; sourceTree = "<group>"; };
+		CEE49897265382000086413B /* progressivemesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = progressivemesh.h; sourceTree = "<group>"; };
+		CEE49898265382000086413B /* sparsematrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sparsematrix.hpp; sourceTree = "<group>"; };
+		CEE49899265382000086413B /* SymmetricMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SymmetricMatrix.hpp; sourceTree = "<group>"; };
+		CEE4989A265382000086413B /* UVAtlas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UVAtlas.cpp; sourceTree = "<group>"; };
+		CEE4989B265382000086413B /* UVAtlasRepacker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UVAtlasRepacker.cpp; sourceTree = "<group>"; };
+		CEE4989C265382000086413B /* UVAtlasRepacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVAtlasRepacker.h; sourceTree = "<group>"; };
+		CEE4989D265382000086413B /* vertiter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vertiter.cpp; sourceTree = "<group>"; };
+		CEE4989E265382000086413B /* vertiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertiter.h; sourceTree = "<group>"; };
+		CEE4989F265382000086413B /* Vis_Maxflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vis_Maxflow.cpp; sourceTree = "<group>"; };
+		CEE498A0265382000086413B /* Vis_Maxflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vis_Maxflow.h; sourceTree = "<group>"; };
+		CEE498A1265382000086413B /* maxheap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = maxheap.hpp; path = "../UVAtlas-dylib/maxheap.hpp"; sourceTree = "<group>"; };
+		CEE498A4265382000086413B /* d3d12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = d3d12.h; sourceTree = "<group>"; };
+		CEE498A5265382000086413B /* d3d12.idl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = d3d12.idl; sourceTree = "<group>"; };
+		CEE498A6265382000086413B /* d3d12compatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = d3d12compatibility.h; sourceTree = "<group>"; };
+		CEE498A7265382000086413B /* d3d12compatibility.idl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = d3d12compatibility.idl; sourceTree = "<group>"; };
+		CEE498A8265382000086413B /* d3d12sdklayers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = d3d12sdklayers.h; sourceTree = "<group>"; };
+		CEE498A9265382000086413B /* d3d12sdklayers.idl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = d3d12sdklayers.idl; sourceTree = "<group>"; };
+		CEE498AA265382000086413B /* d3d12shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = d3d12shader.h; sourceTree = "<group>"; };
+		CEE498AB265382000086413B /* d3d12video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = d3d12video.h; sourceTree = "<group>"; };
+		CEE498AC265382000086413B /* d3d12video.idl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = d3d12video.idl; sourceTree = "<group>"; };
+		CEE498AD265382000086413B /* d3dcommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = d3dcommon.h; sourceTree = "<group>"; };
+		CEE498AE265382000086413B /* d3dcommon.idl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = d3dcommon.idl; sourceTree = "<group>"; };
+		CEE498AF265382000086413B /* d3dx12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = d3dx12.h; sourceTree = "<group>"; };
+		CEE498B0265382000086413B /* dxcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxcore.h; sourceTree = "<group>"; };
+		CEE498B1265382000086413B /* dxcore_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxcore_interface.h; sourceTree = "<group>"; };
+		CEE498B2265382000086413B /* dxgicommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxgicommon.h; sourceTree = "<group>"; };
+		CEE498B3265382000086413B /* dxgicommon.idl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dxgicommon.idl; sourceTree = "<group>"; };
+		CEE498B4265382000086413B /* dxgiformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxgiformat.h; sourceTree = "<group>"; };
+		CEE498B5265382000086413B /* dxgiformat.idl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dxgiformat.idl; sourceTree = "<group>"; };
+		CEE498B7265382000086413B /* dxguids.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxguids.h; sourceTree = "<group>"; };
+		CEE498BA265382000086413B /* OAIdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAIdl.h; sourceTree = "<group>"; };
+		CEE498BB265382000086413B /* OCIdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCIdl.h; sourceTree = "<group>"; };
+		CEE498BC265382000086413B /* rpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rpc.h; sourceTree = "<group>"; };
+		CEE498BD265382000086413B /* rpcndr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rpcndr.h; sourceTree = "<group>"; };
+		CEE498BE265382000086413B /* winapifamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winapifamily.h; sourceTree = "<group>"; };
+		CEE498C0265382000086413B /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		CEE498C1265382000086413B /* implements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = implements.h; sourceTree = "<group>"; };
+		CEE498C2265382000086413B /* winadapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winadapter.h; sourceTree = "<group>"; };
+		CEE498C3265382000086413B /* wrladapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrladapter.h; sourceTree = "<group>"; };
+		CEE498C5265382000086413B /* DirectXMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectXMesh.h; sourceTree = "<group>"; };
+		CEE498C6265382000086413B /* DirectXMesh.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DirectXMesh.inl; sourceTree = "<group>"; };
+		CEE498C7265382000086413B /* DirectXMeshAdjacency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshAdjacency.cpp; sourceTree = "<group>"; };
+		CEE498C8265382000086413B /* DirectXMeshClean.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshClean.cpp; sourceTree = "<group>"; };
+		CEE498C9265382000086413B /* DirectXMeshConcat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshConcat.cpp; sourceTree = "<group>"; };
+		CEE498CA265382000086413B /* DirectXMeshGSAdjacency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshGSAdjacency.cpp; sourceTree = "<group>"; };
+		CEE498CB265382000086413B /* DirectXMeshletGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshletGenerator.cpp; sourceTree = "<group>"; };
+		CEE498CC265382000086413B /* DirectXMeshNormals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshNormals.cpp; sourceTree = "<group>"; };
+		CEE498CD265382000086413B /* DirectXMeshOptimize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshOptimize.cpp; sourceTree = "<group>"; };
+		CEE498CE265382000086413B /* DirectXMeshOptimizeLRU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshOptimizeLRU.cpp; sourceTree = "<group>"; };
+		CEE498CF265382000086413B /* DirectXMeshOptimizeTVC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshOptimizeTVC.cpp; sourceTree = "<group>"; };
+		CEE498D0265382000086413B /* DirectXMeshP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectXMeshP.h; sourceTree = "<group>"; };
+		CEE498D1265382000086413B /* DirectXMeshRemap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshRemap.cpp; sourceTree = "<group>"; };
+		CEE498D2265382000086413B /* DirectXMeshTangentFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshTangentFrame.cpp; sourceTree = "<group>"; };
+		CEE498D3265382000086413B /* DirectXMeshUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshUtil.cpp; sourceTree = "<group>"; };
+		CEE498D4265382000086413B /* DirectXMeshValidate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshValidate.cpp; sourceTree = "<group>"; };
+		CEE498D5265382000086413B /* DirectXMeshVBReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshVBReader.cpp; sourceTree = "<group>"; };
+		CEE498D6265382000086413B /* DirectXMeshVBWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshVBWriter.cpp; sourceTree = "<group>"; };
+		CEE498D7265382000086413B /* DirectXMeshWeldVertices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirectXMeshWeldVertices.cpp; sourceTree = "<group>"; };
+		CEE498D8265382000086413B /* scoped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoped.h; sourceTree = "<group>"; };
+		CEE498DA265382000086413B /* UVAtlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVAtlas.h; sourceTree = "<group>"; };
+		CEE498DC265382000086413B /* DirectXCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectXCollision.h; sourceTree = "<group>"; };
+		CEE498DD265382000086413B /* DirectXCollision.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DirectXCollision.inl; sourceTree = "<group>"; };
+		CEE498DE265382000086413B /* DirectXColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectXColors.h; sourceTree = "<group>"; };
+		CEE498DF265382000086413B /* DirectXMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectXMath.h; sourceTree = "<group>"; };
+		CEE498E0265382000086413B /* DirectXMathConvert.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DirectXMathConvert.inl; sourceTree = "<group>"; };
+		CEE498E1265382000086413B /* DirectXMathMatrix.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DirectXMathMatrix.inl; sourceTree = "<group>"; };
+		CEE498E2265382000086413B /* DirectXMathMisc.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DirectXMathMisc.inl; sourceTree = "<group>"; };
+		CEE498E3265382000086413B /* DirectXMathVector.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DirectXMathVector.inl; sourceTree = "<group>"; };
+		CEE498E4265382000086413B /* DirectXPackedVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectXPackedVector.h; sourceTree = "<group>"; };
+		CEE498E5265382000086413B /* DirectXPackedVector.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DirectXPackedVector.inl; sourceTree = "<group>"; };
+		CEE498E6265382000086413B /* sal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sal.h; path = "../UVAtlas-dylib/sal.h"; sourceTree = "<group>"; };
+		CEE498E8265382000086413B /* ApproximateOneToAll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ApproximateOneToAll.cpp; sourceTree = "<group>"; };
+		CEE498E9265382000086413B /* ApproximateOneToAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApproximateOneToAll.h; sourceTree = "<group>"; };
+		CEE498EA265382000086413B /* datatypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datatypes.h; sourceTree = "<group>"; };
+		CEE498EB265382000086413B /* ExactOneToAll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExactOneToAll.cpp; sourceTree = "<group>"; };
+		CEE498EC265382000086413B /* ExactOneToAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExactOneToAll.h; sourceTree = "<group>"; };
+		CEE498ED265382000086413B /* mathutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mathutils.cpp; sourceTree = "<group>"; };
+		CEE498EE265382000086413B /* mathutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathutils.h; sourceTree = "<group>"; };
+		CEE498EF265382000086413B /* minheap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = minheap.hpp; sourceTree = "<group>"; };
+		CEE498F0265382010086413B /* pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pch.h; path = "../UVAtlas-dylib/pch.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE4986C265381BA0086413B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE49866265381BA0086413B = {
+			isa = PBXGroup;
+			children = (
+				CEE498C4265382000086413B /* DirectXMesh */,
+				CEE498A2265382000086413B /* DxHeaders */,
+				CEE498DB265382000086413B /* DxMath */,
+				CEE498E7265382000086413B /* geodesics */,
+				CEE498D9265382000086413B /* inc */,
+				CEE4987B265382000086413B /* isochart */,
+				CEE498A1265382000086413B /* maxheap.hpp */,
+				CEE498F0265382010086413B /* pch.h */,
+				CEE498E6265382000086413B /* sal.h */,
+				CEE49871265381BA0086413B /* UVAtlas-DxMesh-iOS */,
+				CEE49870265381BA0086413B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE49870265381BA0086413B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4986F265381BA0086413B /* libUVAtlas-DxMesh-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE49871265381BA0086413B /* UVAtlas-DxMesh-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CE225DA12657801000AB3851 /* layer.cpp */,
+			);
+			path = "UVAtlas-DxMesh-iOS";
+			sourceTree = "<group>";
+		};
+		CEE4987B265382000086413B /* isochart */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4987C265382000086413B /* barycentricparam.cpp */,
+				CEE4987D265382000086413B /* basemeshinfo.cpp */,
+				CEE4987E265382000086413B /* basemeshinfo.h */,
+				CEE4987F265382000086413B /* callbackschemer.h */,
+				CEE49880265382000086413B /* graphcut.cpp */,
+				CEE49881265382000086413B /* graphcut.h */,
+				CEE49882265382000086413B /* imtcomputation.cpp */,
+				CEE49883265382000086413B /* isochart.cpp */,
+				CEE49884265382000086413B /* isochart.h */,
+				CEE49885265382000086413B /* isochartconfig.h */,
+				CEE49886265382000086413B /* isochartengine.cpp */,
+				CEE49887265382000086413B /* isochartengine.h */,
+				CEE49888265382000086413B /* isochartmesh.cpp */,
+				CEE49889265382000086413B /* isochartmesh.h */,
+				CEE4988A265382000086413B /* isochartutil.cpp */,
+				CEE4988B265382000086413B /* isochartutil.h */,
+				CEE4988C265382000086413B /* isomap.cpp */,
+				CEE4988D265382000086413B /* isomap.h */,
+				CEE4988E265382000086413B /* lscmparam.cpp */,
+				CEE4988F265382000086413B /* mergecharts.cpp */,
+				CEE49890265382000086413B /* meshapplyisomap.cpp */,
+				CEE49891265382000086413B /* meshcommon.inl */,
+				CEE49892265382000086413B /* meshoptimizeboundaries.cpp */,
+				CEE49893265382000086413B /* meshoptimizestretch.cpp */,
+				CEE49894265382000086413B /* meshpartitionchart.cpp */,
+				CEE49895265382000086413B /* packingcharts.cpp */,
+				CEE49896265382000086413B /* progressivemesh.cpp */,
+				CEE49897265382000086413B /* progressivemesh.h */,
+				CEE49898265382000086413B /* sparsematrix.hpp */,
+				CEE49899265382000086413B /* SymmetricMatrix.hpp */,
+				CEE4989A265382000086413B /* UVAtlas.cpp */,
+				CEE4989B265382000086413B /* UVAtlasRepacker.cpp */,
+				CEE4989C265382000086413B /* UVAtlasRepacker.h */,
+				CEE4989D265382000086413B /* vertiter.cpp */,
+				CEE4989E265382000086413B /* vertiter.h */,
+				CEE4989F265382000086413B /* Vis_Maxflow.cpp */,
+				CEE498A0265382000086413B /* Vis_Maxflow.h */,
+			);
+			name = isochart;
+			path = "../UVAtlas-dylib/isochart";
+			sourceTree = "<group>";
+		};
+		CEE498A2265382000086413B /* DxHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498A3265382000086413B /* directx */,
+				CEE498B6265382000086413B /* dxguids */,
+				CEE498B8265382000086413B /* wsl */,
+			);
+			name = DxHeaders;
+			path = "../UVAtlas-dylib/DxHeaders";
+			sourceTree = "<group>";
+		};
+		CEE498A3265382000086413B /* directx */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498A4265382000086413B /* d3d12.h */,
+				CEE498A5265382000086413B /* d3d12.idl */,
+				CEE498A6265382000086413B /* d3d12compatibility.h */,
+				CEE498A7265382000086413B /* d3d12compatibility.idl */,
+				CEE498A8265382000086413B /* d3d12sdklayers.h */,
+				CEE498A9265382000086413B /* d3d12sdklayers.idl */,
+				CEE498AA265382000086413B /* d3d12shader.h */,
+				CEE498AB265382000086413B /* d3d12video.h */,
+				CEE498AC265382000086413B /* d3d12video.idl */,
+				CEE498AD265382000086413B /* d3dcommon.h */,
+				CEE498AE265382000086413B /* d3dcommon.idl */,
+				CEE498AF265382000086413B /* d3dx12.h */,
+				CEE498B0265382000086413B /* dxcore.h */,
+				CEE498B1265382000086413B /* dxcore_interface.h */,
+				CEE498B2265382000086413B /* dxgicommon.h */,
+				CEE498B3265382000086413B /* dxgicommon.idl */,
+				CEE498B4265382000086413B /* dxgiformat.h */,
+				CEE498B5265382000086413B /* dxgiformat.idl */,
+			);
+			path = directx;
+			sourceTree = "<group>";
+		};
+		CEE498B6265382000086413B /* dxguids */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498B7265382000086413B /* dxguids.h */,
+			);
+			path = dxguids;
+			sourceTree = "<group>";
+		};
+		CEE498B8265382000086413B /* wsl */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498B9265382000086413B /* stubs */,
+				CEE498C2265382000086413B /* winadapter.h */,
+				CEE498C3265382000086413B /* wrladapter.h */,
+			);
+			path = wsl;
+			sourceTree = "<group>";
+		};
+		CEE498B9265382000086413B /* stubs */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498BA265382000086413B /* OAIdl.h */,
+				CEE498BB265382000086413B /* OCIdl.h */,
+				CEE498BC265382000086413B /* rpc.h */,
+				CEE498BD265382000086413B /* rpcndr.h */,
+				CEE498BE265382000086413B /* winapifamily.h */,
+				CEE498BF265382000086413B /* wrl */,
+			);
+			path = stubs;
+			sourceTree = "<group>";
+		};
+		CEE498BF265382000086413B /* wrl */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498C0265382000086413B /* client.h */,
+				CEE498C1265382000086413B /* implements.h */,
+			);
+			path = wrl;
+			sourceTree = "<group>";
+		};
+		CEE498C4265382000086413B /* DirectXMesh */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498C5265382000086413B /* DirectXMesh.h */,
+				CEE498C6265382000086413B /* DirectXMesh.inl */,
+				CEE498C7265382000086413B /* DirectXMeshAdjacency.cpp */,
+				CEE498C8265382000086413B /* DirectXMeshClean.cpp */,
+				CEE498C9265382000086413B /* DirectXMeshConcat.cpp */,
+				CEE498CA265382000086413B /* DirectXMeshGSAdjacency.cpp */,
+				CEE498CB265382000086413B /* DirectXMeshletGenerator.cpp */,
+				CEE498CC265382000086413B /* DirectXMeshNormals.cpp */,
+				CEE498CD265382000086413B /* DirectXMeshOptimize.cpp */,
+				CEE498CE265382000086413B /* DirectXMeshOptimizeLRU.cpp */,
+				CEE498CF265382000086413B /* DirectXMeshOptimizeTVC.cpp */,
+				CEE498D0265382000086413B /* DirectXMeshP.h */,
+				CEE498D1265382000086413B /* DirectXMeshRemap.cpp */,
+				CEE498D2265382000086413B /* DirectXMeshTangentFrame.cpp */,
+				CEE498D3265382000086413B /* DirectXMeshUtil.cpp */,
+				CEE498D4265382000086413B /* DirectXMeshValidate.cpp */,
+				CEE498D5265382000086413B /* DirectXMeshVBReader.cpp */,
+				CEE498D6265382000086413B /* DirectXMeshVBWriter.cpp */,
+				CEE498D7265382000086413B /* DirectXMeshWeldVertices.cpp */,
+				CEE498D8265382000086413B /* scoped.h */,
+			);
+			name = DirectXMesh;
+			path = "../UVAtlas-dylib/DirectXMesh";
+			sourceTree = "<group>";
+		};
+		CEE498D9265382000086413B /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498DA265382000086413B /* UVAtlas.h */,
+			);
+			name = inc;
+			path = "../UVAtlas-dylib/inc";
+			sourceTree = "<group>";
+		};
+		CEE498DB265382000086413B /* DxMath */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498DC265382000086413B /* DirectXCollision.h */,
+				CEE498DD265382000086413B /* DirectXCollision.inl */,
+				CEE498DE265382000086413B /* DirectXColors.h */,
+				CEE498DF265382000086413B /* DirectXMath.h */,
+				CEE498E0265382000086413B /* DirectXMathConvert.inl */,
+				CEE498E1265382000086413B /* DirectXMathMatrix.inl */,
+				CEE498E2265382000086413B /* DirectXMathMisc.inl */,
+				CEE498E3265382000086413B /* DirectXMathVector.inl */,
+				CEE498E4265382000086413B /* DirectXPackedVector.h */,
+				CEE498E5265382000086413B /* DirectXPackedVector.inl */,
+			);
+			name = DxMath;
+			path = "../UVAtlas-dylib/DxMath";
+			sourceTree = "<group>";
+		};
+		CEE498E7265382000086413B /* geodesics */ = {
+			isa = PBXGroup;
+			children = (
+				CEE498E8265382000086413B /* ApproximateOneToAll.cpp */,
+				CEE498E9265382000086413B /* ApproximateOneToAll.h */,
+				CEE498EA265382000086413B /* datatypes.h */,
+				CEE498EB265382000086413B /* ExactOneToAll.cpp */,
+				CEE498EC265382000086413B /* ExactOneToAll.h */,
+				CEE498ED265382000086413B /* mathutils.cpp */,
+				CEE498EE265382000086413B /* mathutils.h */,
+				CEE498EF265382000086413B /* minheap.hpp */,
+			);
+			name = geodesics;
+			path = "../UVAtlas-dylib/geodesics";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE4986E265381BA0086413B /* UVAtlas-DxMesh-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE49878265381BA0086413B /* Build configuration list for PBXNativeTarget "UVAtlas-DxMesh-iOS" */;
+			buildPhases = (
+				CEE4986B265381BA0086413B /* Sources */,
+				CEE4986C265381BA0086413B /* Frameworks */,
+				CEE4986D265381BA0086413B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UVAtlas-DxMesh-iOS";
+			productName = "UVAtlas-DxMesh-iOS";
+			productReference = CEE4986F265381BA0086413B /* libUVAtlas-DxMesh-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE49867265381BA0086413B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CEE4986E265381BA0086413B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = CEE4986A265381BA0086413B /* Build configuration list for PBXProject "UVAtlas-DxMesh-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE49866265381BA0086413B;
+			productRefGroup = CEE49870265381BA0086413B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE4986E265381BA0086413B /* UVAtlas-DxMesh-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE4986B265381BA0086413B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE498FF265382010086413B /* meshpartitionchart.cpp in Sources */,
+				CEE498F5265382010086413B /* isochart.cpp in Sources */,
+				CEE49911265382010086413B /* DirectXMeshUtil.cpp in Sources */,
+				CEE498FD265382010086413B /* meshoptimizeboundaries.cpp in Sources */,
+				CEE498FB265382010086413B /* mergecharts.cpp in Sources */,
+				CEE49901265382010086413B /* progressivemesh.cpp in Sources */,
+				CEE498F1265382010086413B /* barycentricparam.cpp in Sources */,
+				CEE498F9265382010086413B /* isomap.cpp in Sources */,
+				CEE498FC265382010086413B /* meshapplyisomap.cpp in Sources */,
+				CEE49909265382010086413B /* DirectXMeshGSAdjacency.cpp in Sources */,
+				CEE49903265382010086413B /* UVAtlasRepacker.cpp in Sources */,
+				CEE4990A265382010086413B /* DirectXMeshletGenerator.cpp in Sources */,
+				CEE49906265382010086413B /* DirectXMeshAdjacency.cpp in Sources */,
+				CEE49918265382010086413B /* mathutils.cpp in Sources */,
+				CEE49902265382010086413B /* UVAtlas.cpp in Sources */,
+				CEE498FE265382010086413B /* meshoptimizestretch.cpp in Sources */,
+				CEE4990C265382010086413B /* DirectXMeshOptimize.cpp in Sources */,
+				CEE49908265382010086413B /* DirectXMeshConcat.cpp in Sources */,
+				CEE498F7265382010086413B /* isochartmesh.cpp in Sources */,
+				CEE49905265382010086413B /* Vis_Maxflow.cpp in Sources */,
+				CEE4990E265382010086413B /* DirectXMeshOptimizeTVC.cpp in Sources */,
+				CEE49917265382010086413B /* ExactOneToAll.cpp in Sources */,
+				CEE4990D265382010086413B /* DirectXMeshOptimizeLRU.cpp in Sources */,
+				CEE498FA265382010086413B /* lscmparam.cpp in Sources */,
+				CEE49907265382010086413B /* DirectXMeshClean.cpp in Sources */,
+				CEE498F4265382010086413B /* imtcomputation.cpp in Sources */,
+				CEE49915265382010086413B /* DirectXMeshWeldVertices.cpp in Sources */,
+				CEE49916265382010086413B /* ApproximateOneToAll.cpp in Sources */,
+				CEE498F8265382010086413B /* isochartutil.cpp in Sources */,
+				CE225DA22657801000AB3851 /* layer.cpp in Sources */,
+				CEE498F6265382010086413B /* isochartengine.cpp in Sources */,
+				CEE49913265382010086413B /* DirectXMeshVBReader.cpp in Sources */,
+				CEE4990F265382010086413B /* DirectXMeshRemap.cpp in Sources */,
+				CEE4990B265382010086413B /* DirectXMeshNormals.cpp in Sources */,
+				CEE49912265382010086413B /* DirectXMeshValidate.cpp in Sources */,
+				CEE498F2265382010086413B /* basemeshinfo.cpp in Sources */,
+				CEE49904265382010086413B /* vertiter.cpp in Sources */,
+				CEE49900265382010086413B /* packingcharts.cpp in Sources */,
+				CEE49914265382010086413B /* DirectXMeshVBWriter.cpp in Sources */,
+				CEE49910265382010086413B /* DirectXMeshTangentFrame.cpp in Sources */,
+				CEE498F3265382010086413B /* graphcut.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEE49876265381BA0086413B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEE49877265381BA0086413B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE49879265381BA0086413B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE4987A265381BA0086413B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE4986A265381BA0086413B /* Build configuration list for PBXProject "UVAtlas-DxMesh-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE49876265381BA0086413B /* Debug */,
+				CEE49877265381BA0086413B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE49878265381BA0086413B /* Build configuration list for PBXNativeTarget "UVAtlas-DxMesh-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE49879265381BA0086413B /* Debug */,
+				CEE4987A265381BA0086413B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE49867265381BA0086413B /* Project object */;
+}

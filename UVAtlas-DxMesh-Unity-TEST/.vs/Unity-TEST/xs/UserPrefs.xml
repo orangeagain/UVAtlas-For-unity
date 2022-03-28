@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{5D95CC97-EDE1-5A43-3F9B-B49D7F4B6F4A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/RunTest.cs">
+    <Files>
+      <File FileName="Assets/Plugins/RunTest.cs" Line="12" Column="1" />
+      <File FileName="Assets/Plugins/UVAtlas/UVAtlasWrap.cs" Line="86" Column="39" />
+      <File FileName="Assets/Plugins/DxMesh/DxMeshWrap.cs" Line="6" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unity-TEST" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Plugins" expanded="True">
+                <Node name="DxMesh" expanded="True" />
+                <Node name="UVAtlas" expanded="True" />
+                <Node name="RunTest.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-firstpass PreferredExecutionTarget="c5c7acba-93a2-4d54-b089-121eeac29923" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

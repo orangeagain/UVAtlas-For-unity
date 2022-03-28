@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{868D33F1-E603-EFD2-3E41-81335AB0FD1F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/RunTest.cs">
+    <Files>
+      <File FileName="Assets/Plugins/DxMeshWrap.cs" Line="16" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UnityTest-DxMesh" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Plugins" expanded="True">
+                <Node name="RunTest.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-firstpass PreferredExecutionTarget="fc544be6-2ffb-4e9f-8a06-11e476664354" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

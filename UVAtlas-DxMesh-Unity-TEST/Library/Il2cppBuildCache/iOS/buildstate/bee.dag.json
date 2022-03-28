@@ -1,0 +1,1259 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "IL2CPP_CodeGen /Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput/Data",
+      "Action": "\"/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp\" --convert-to-cpp --profiler-report --profiler-output-file=\"/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/artifacts/il2cpp_conv_nrfz.traceevents\" --directory=\"/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed\" --data-folder=\"/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput/Data\" --generatedcppdir=\"/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput\" --symbols-folder=\"/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput/Symbols\" --additional-cpp=\"/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --emit-null-checks --enable-array-bounds-check --code-generation-option=EnableInlining --stats-output-dir=\"/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput\" --dotnetprofile=unityaot --cachedirectory=\"/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS\"",
+      "ProfilerOutput": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/artifacts/il2cpp_conv_nrfz.traceevents",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.CSharp.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Web.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Contracts.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ServiceModel.Web.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.FileVersionInfo.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Intrinsics.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Security.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/MiniProfiler.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Common35.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Mono.Cecil.Rocks.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XPath.XDocument.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.Linq.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebSockets.Client.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.MacOS.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Core.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.NativeProgramSupport.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/createdump",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Building.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Dynamic.Runtime.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.Xml.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.WindowsDesktop.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.Android.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Principal.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.ThreadPool.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Compression.FileSystem.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Metadata.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Tools.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Cng.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/UnityLinker.deps.json",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.EventBasedAsync.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.DiagnosticSource.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.CompilerServices.VisualC.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.BeeDriver.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/netstandard.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.VisualBasic.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.UnmanagedMemoryStream.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.WebGL.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.AccessControl.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XPath.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.PinnedToolChains.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.Linux.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XmlDocument.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/UnityLinker.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.GNU.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Configuration.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Resources.Writer.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Console.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/NiceIO.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Common.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libcoreclr.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Sockets.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Http.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Windows.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Web.HttpUtility.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Encoding.Extensions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.NetworkInformation.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.VisualBasic.Core.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Principal.Windows.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp.deps.json",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Emscripten.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Claims.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.Primitives.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.DriveInfo.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.LLVM.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/monolinker.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.Native.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Compression.Brotli.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Pipes.AccessControl.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/UnityLinker.dll.config",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.X509Certificates.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Primitives.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Numerics.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.Watcher.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.TraceSource.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Tools.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Emit.Lightweight.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Encoding.CodePages.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/UnityLinker.runtimeconfig.json",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Linq.Expressions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Timer.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.InteropServices.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Pipes.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.HttpListener.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.Bcl.HashCode.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.BeeDriver.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.RegularExpressions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Stevedore.Program.exe",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Compression.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.IO.Compression.Native.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Tasks.Parallel.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/WindowsBase.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.Xml.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Data.DataSetExtensions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.NonGeneric.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.Concurrent.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Core.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.MacOS.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/SharpYaml.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Common35.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/MiniProfiler.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Overlapped.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Building.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.NativeProgramSupport.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Encodings.Web.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.Serialization.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Handles.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebProxy.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Json.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.Android.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ObjectModel.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.WindowsDesktop.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.CoreLib.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebHeaderCollection.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.TypeConverter.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Emscripten.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Mail.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Tasks.Extensions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Linq.Parallel.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/monolinker.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.LLVM.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XDocument.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.SecureString.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Mono.Cecil.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.Annotations.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.PinnedToolChains.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.WebGL.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.DataContractSerialization.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Stevedore.Program.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.Primitives.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/UnityLinker.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/mscorlib.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Http.Json.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.Linux.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.GNU.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Primitives.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Compression.ZipFile.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Windows.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Linq.Queryable.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Resources.ResourceManager.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Resources.Reader.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Windows.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Emit.ILGeneration.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Common.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/NiceIO.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Data.Common.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.NameResolution.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.TundraBackend.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Android.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.Security.Cryptography.Native.Apple.a",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.Uri.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.BeeDriver.xml",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Loader.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.DotNet.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.ReaderWriter.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Tasks.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Tracing.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.AppContext.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Buffers.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Linux.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Csp.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.RuntimeServices.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Linker.Api.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.VisualStudioSolution.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.TextWriterTraceListener.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Api.Attributes.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.CSharpSupport.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.Security.Cryptography.Native.Apple.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.Net.Security.Native.a",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Encoding.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libmscordaccore.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp.runtimeconfig.json",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Transactions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp.dll.config",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Tasks.Dataflow.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Newtonsoft.Json.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.MemoryMappedFiles.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/UnityLinker",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.OpenSsl.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Cecil.Visitor.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Shell.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.Win32.Registry.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.MacOSX.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Globalization.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.Specialized.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ValueTuple.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Options.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libhostfxr.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Api.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.Net.Security.Native.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Cecil.Awesome.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.VisualStudio.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.ServicePoint.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XmlSerializer.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Extensions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Globalization.Extensions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Xcode.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Extensions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Data.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Encoding.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.IsolatedStorage.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libmscordbi.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/NiceIO.xml",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.AccessControl.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Linker.Api.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.TypeExtensions.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.RuntimeServices.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Linux.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Globalization.Calendars.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Core.xml",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Requests.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebSockets.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Emit.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.VisualStudioSolution.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.Json.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Algorithms.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.CSharpSupport.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Api.Attributes.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Thread.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Numerics.Vectors.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ServiceProcess.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.IO.Compression.Native.a",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libhostpolicy.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Linq.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Mono.Cecil.Pdb.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Android.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Process.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.TundraBackend.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Numerics.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Tools.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.DotNet.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.Immutable.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.Security.Cryptography.Native.OpenSsl.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Debug.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libdbgshim.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Options.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.Security.Cryptography.Native.OpenSsl.a",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.Win32.Primitives.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.VisualStudio.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.Primitives.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Cecil.Awesome.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Api.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Transactions.Local.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Xcode.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Drawing.Primitives.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Drawing.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.Formatters.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Ping.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.StackTrace.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Mono.Cecil.Mdb.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libSystem.Native.a",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.DispatchProxy.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/libclrjit.dylib",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Core.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebClient.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Formats.Asn1.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.DataAnnotations.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.Xml.Linq.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Memory.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Primitives.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Cecil.Visitor.pdb",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Channels.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.MacOSX.dll",
+        "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Shell.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/ICallSummary.txt",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityICallRegistration.cpp",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/TypesInScenes.xml",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/IngameDebugConsole.Runtime.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/Assembly-CSharp-firstpass.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityLinkerToEditorData.json",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.UI.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/IngameDebugConsole.Runtime.dll",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed/Assembly-CSharp-firstpass.pdb",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+      ],
+      "Outputs": [
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/artifacts/il2cpp_conv_nrfz.traceevents"
+      ],
+      "TargetDirectories": [
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput/Data",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput",
+        "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput/Symbols"
+      ],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "StatSignatures": [
+        {
+          "File": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput"
+        },
+        {
+          "File": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput/Data"
+        }
+      ],
+      "GlobSignatures": [
+        {
+          "Path": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput",
+          "Filter": "*.cpp",
+          "Recurse": 1
+        },
+        {
+          "Path": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput",
+          "Filter": "*.c",
+          "Recurse": 1
+        },
+        {
+          "Path": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput",
+          "Filter": "*.mm",
+          "Recurse": 1
+        },
+        {
+          "Path": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput",
+          "Filter": "*.m",
+          "Recurse": 1
+        },
+        {
+          "Path": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput/Data",
+          "Recurse": 1
+        }
+      ],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "FinalProgram",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 2
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.BeeDriver.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Core.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.DotNet.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Android.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Emscripten.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Linux.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.MacOS.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Windows.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.Tools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/il2cpp.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.Bcl.HashCode.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.CSharp.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.VisualBasic.Core.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.VisualBasic.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.Win32.Primitives.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Microsoft.Win32.Registry.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/MiniProfiler.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Mono.Cecil.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Mono.Cecil.Mdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Mono.Cecil.Pdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Mono.Cecil.Rocks.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/monolinker.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/mscorlib.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/netstandard.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/NiceIO.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/SharpYaml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.AppContext.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Buffers.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.Concurrent.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.Immutable.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.NonGeneric.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Collections.Specialized.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.Annotations.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.DataAnnotations.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.EventBasedAsync.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.Primitives.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ComponentModel.TypeConverter.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Configuration.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Console.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Core.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Data.Common.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Data.DataSetExtensions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Contracts.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Debug.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.DiagnosticSource.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.FileVersionInfo.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Process.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.StackTrace.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.TextWriterTraceListener.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Tools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.TraceSource.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Diagnostics.Tracing.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Drawing.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Drawing.Primitives.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Dynamic.Runtime.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Formats.Asn1.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Globalization.Calendars.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Globalization.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Globalization.Extensions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Compression.Brotli.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Compression.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Compression.FileSystem.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Compression.ZipFile.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.AccessControl.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.DriveInfo.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.Primitives.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.FileSystem.Watcher.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.IsolatedStorage.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.MemoryMappedFiles.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Pipes.AccessControl.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.Pipes.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.IO.UnmanagedMemoryStream.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Linq.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Linq.Expressions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Linq.Parallel.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Linq.Queryable.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Memory.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Http.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Http.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.HttpListener.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Mail.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.NameResolution.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.NetworkInformation.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Ping.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Primitives.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Requests.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Security.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.ServicePoint.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.Sockets.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebClient.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebHeaderCollection.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebProxy.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebSockets.Client.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Net.WebSockets.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Numerics.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Numerics.Vectors.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ObjectModel.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.CoreLib.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.DataContractSerialization.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.Uri.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.Xml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Private.Xml.Linq.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.DispatchProxy.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Emit.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Emit.ILGeneration.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Emit.Lightweight.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Extensions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Metadata.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.Primitives.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Reflection.TypeExtensions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Resources.Reader.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Resources.ResourceManager.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Resources.Writer.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.CompilerServices.Unsafe.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.CompilerServices.VisualC.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Extensions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Handles.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.InteropServices.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.InteropServices.RuntimeInformation.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Intrinsics.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Loader.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Numerics.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.Formatters.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.Primitives.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Runtime.Serialization.Xml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.AccessControl.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Claims.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Algorithms.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Cng.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Csp.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Encoding.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.OpenSsl.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.Primitives.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Cryptography.X509Certificates.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Principal.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.Principal.Windows.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Security.SecureString.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ServiceModel.Web.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ServiceProcess.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Encoding.CodePages.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Encoding.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Encoding.Extensions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Encodings.Web.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Text.RegularExpressions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Channels.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Overlapped.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Tasks.Dataflow.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Tasks.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Tasks.Extensions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Tasks.Parallel.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Thread.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.ThreadPool.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Threading.Timer.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Transactions.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Transactions.Local.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.ValueTuple.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Web.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Web.HttpUtility.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Windows.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.Linq.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.ReaderWriter.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.Serialization.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XDocument.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XmlDocument.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XmlSerializer.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XPath.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/System.Xml.XPath.XDocument.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Cecil.Awesome.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Cecil.Visitor.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.Android.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.Linux.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.MacOSX.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.WebGL.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.BuildLogic.WindowsDesktop.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Bee.PinnedToolChains.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Building.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Common.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Common35.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.RuntimeServices.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.IL2CPP.Shell.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/Unity.Options.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/UnityLinker.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0/WindowsBase.dll"
+    },
+    {
+      "File": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/bee-inputdata.json"
+    },
+    {
+      "File": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/bee.dag.outputdata"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/external/xamarin-android"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/codegen"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/gc"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/os"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/utils"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/vm-utils"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpptiny"
+    },
+    {
+      "File": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/bee.dag.outputdata"
+    },
+    {
+      "File": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "/Users/user/Library"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/build/deploy/net5.0"
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/os",
+      "Filter": "*.c",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/os",
+      "Filter": "*.cpp",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/utils",
+      "Filter": "*.c",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/utils",
+      "Filter": "*.cpp",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/vm-utils",
+      "Filter": "*.c",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/vm-utils",
+      "Filter": "*.cpp",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/gc",
+      "Filter": "*.c",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/gc",
+      "Filter": "*.cpp",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/codegen",
+      "Filter": "*.c",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp/codegen",
+      "Filter": "*.cpp",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp",
+      "Filter": "*.c",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp",
+      "Filter": "*.cpp",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp",
+      "Filter": "*.m",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/libil2cpp",
+      "Filter": "*.mm",
+      "Recurse": 1
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/external/xamarin-android",
+      "Filter": "*.c"
+    },
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2021.2.0a16/Unity.app/Contents/il2cpp/external/xamarin-android",
+      "Filter": "*.cpp"
+    },
+    {
+      "Path": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".winmd",
+    ".dll",
+    ".pdb",
+    ".cpp",
+    ".cc",
+    ".c",
+    ".hpp",
+    ".h",
+    ".json",
+    ".rsp",
+    ".xml",
+    ".txt"
+  ],
+  "StructuredLogFileName": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/tundra.log.json",
+  "StateFileName": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/TundraBuildState.state",
+  "StateFileNameTmp": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/TundraBuildState.state.map",
+  "ScanCacheFileName": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/tundra.scancache",
+  "ScanCacheFileNameTmp": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/tundra.scancache.tmp",
+  "DigestCacheFileName": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/tundra.digestcache",
+  "DigestCacheFileNameTmp": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/tundra.digestcache.tmp",
+  "EmitDataForBeeWhy": 1,
+  "DirectoriesCausingImplicitDependencies": [
+    "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput/Data",
+    "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput",
+    "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/il2cppOutput/Symbols"
+  ],
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "FinalProgram": 2
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "/Users/user/Desktop/StaticLibraryForiOS/UnityTest-DxMesh/Library/Il2cppBuildCache/iOS/buildstate/bee.dag.json",
+  "BuildTitle": "il2cpp",
+  "RelativePathToRoot": "."
+}
